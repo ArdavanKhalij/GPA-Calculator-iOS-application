@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_6202" translatesAutoresizingMaskIntoConstraints="NO" id="JKB-OA-BQq">
+                                <rect key="frame" x="0.0" y="223.66666666666663" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JKB-OA-BQq" secondAttribute="height" multiplier="1:1" id="IMq-5l-42i"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JKB-OA-BQq" secondAttribute="trailing" id="0dd-AU-2wT"/>
+                            <constraint firstItem="JKB-OA-BQq" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="AtM-go-Aok"/>
+                            <constraint firstItem="JKB-OA-BQq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jhv-M6-5ib"/>
+                            <constraint firstItem="JKB-OA-BQq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KzZ-2B-Ai3"/>
+                            <constraint firstItem="JKB-OA-BQq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="MMY-TF-dSi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_6202" width="1125" height="1125"/>
+    </resources>
+</document>
